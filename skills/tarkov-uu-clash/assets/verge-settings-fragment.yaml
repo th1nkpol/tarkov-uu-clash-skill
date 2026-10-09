@@ -1,0 +1,9 @@
+# Reference fragment for Clash Verge Rev's APPLICATION settings (verge.yaml).
+# Not a complete Mihomo profile. Merge only these fields; keep other settings.
+# Prefer the Clash UI. App settings can override core/extension TUN values.
+enable_tun_mode: false
+enable_system_proxy: true
+use_default_bypass: true
+system_proxy_bypass: escapefromtarkov.ru;*.escapefromtarkov.ru;escapefromtarkov.com;*.escapefromtarkov.com;tarkov.com;*.tarkov.com;battlestategames.com;*.battlestategames.com;battleye.com;*.battleye.com;uu.163.com;*.uu.163.com;uu.netease.com;*.uu.netease.com;eft-store.com;*.eft-store.com
+# Merge these bypass entries with existing custom entries instead of replacing
+# someone else's list. Keep rule mode in the Clash UI.

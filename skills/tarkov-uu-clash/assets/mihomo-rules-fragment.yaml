@@ -1,0 +1,27 @@
+# Reference fragment only; this is NOT a complete proxy subscription.
+# Prepend these rules to existing rules; preserve nodes, groups and DNS.
+# DIRECT here does not replace Windows system proxy bypass or UU acceleration.
+find-process-mode: always
+rules:
+  - PROCESS-NAME,BsgLauncher.exe,DIRECT
+  - PROCESS-NAME,EscapeFromTarkov.exe,DIRECT
+  - PROCESS-NAME,EscapeFromTarkov_BE.exe,DIRECT
+  - PROCESS-NAME,BEService.exe,DIRECT
+  - PROCESS-NAME,BEService_x64.exe,DIRECT
+  - PROCESS-NAME,BELauncher.exe,DIRECT
+  - PROCESS-NAME,uu.exe,DIRECT
+  - PROCESS-NAME,uu_launcher.exe,DIRECT
+  - PROCESS-NAME,uu_agent.exe,DIRECT
+  - PROCESS-NAME,uu_ball.exe,DIRECT
+  - PROCESS-NAME,uu_cloudsyn.exe,DIRECT
+  - PROCESS-NAME,uu_neths_helper.exe,DIRECT
+  - PROCESS-NAME,uu_download.exe,DIRECT
+  - PROCESS-NAME,uu_translate.exe,DIRECT
+  - DOMAIN-SUFFIX,escapefromtarkov.ru,DIRECT
+  - DOMAIN-SUFFIX,escapefromtarkov.com,DIRECT
+  - DOMAIN-SUFFIX,tarkov.com,DIRECT
+  - DOMAIN-SUFFIX,battlestategames.com,DIRECT
+  - DOMAIN-SUFFIX,battleye.com,DIRECT
+  - DOMAIN-SUFFIX,uu.163.com,DIRECT
+  - DOMAIN-SUFFIX,uu.netease.com,DIRECT
+  - DOMAIN-SUFFIX,eft-store.com,DIRECT
