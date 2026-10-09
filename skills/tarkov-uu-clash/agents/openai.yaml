@@ -1,0 +1,4 @@
+interface:
+  display_name: "塔科夫 · UU 与 Clash 共存"
+  short_description: "处理 Windows 塔科夫与 UU、Clash 同开时的登录及更新冲突"
+  default_prompt: "使用 $tarkov-uu-clash 检查我的 UU 与 Clash 分流，保留已有订阅和设置，分别验证塔科夫登录与更新。"
