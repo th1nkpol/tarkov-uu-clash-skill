@@ -1,0 +1,12 @@
+# Local secrets and diagnostics do not belong in this public repository.
+.env
+.env.*
+*.key
+*.pem
+*.log
+*.bak
+*.backup
+private/
+backups/
+.setup-local/
+__pycache__/
